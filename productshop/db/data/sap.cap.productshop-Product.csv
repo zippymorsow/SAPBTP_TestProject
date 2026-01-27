@@ -1,0 +1,5 @@
+ID,name,stock,price,category
+1,'jojo',23,1450,'kitchenware'
+2,'wooden laddle',45,120,'kitchenware'
+3,'wooden plate',154,100,'kitchenware'
+4,knife,118,250,'kitchenware'
