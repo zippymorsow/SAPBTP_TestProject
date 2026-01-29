@@ -1,5 +1,6 @@
-ID,name,stock,price,category
-1,'jojo',23,1450,'kitchenware'
-2,'wooden laddle',45,120,'kitchenware'
-3,'wooden plate',154,100,'kitchenware'
-4,knife,118,250,'kitchenware'
+ID,name,category,price,stock,criticality,supplier_ID,emission,rating,createdAt,createdBy,modifiedAt,modifiedBy
+f02421c0-36a7-49d0-ad0f-1a23e1ddbdc6,Mang Juan,Junk Food,35,5,2,015e6946-d81b-4a99-8190-008ef223362f,1000,A-,345066,jojo,345066,jojo
+525186fe-ec80-4973-9d6a-40738646ff5f,Winston,Cigarette,10,50,1,363d05f6-4722-44f3-9a94-5008eccee91c,5000,A+,156463,jojo,156463,jojo
+277826d1-28fc-4358-83ee-4b46736791fb,Milo,Powdered Drink,13,24,3,2f10d730-47d4-413d-ad1e-b8da09698cd8,2000,A+,346233,jojo,346233,jojo
+68efd7b8-b9b2-4c49-8953-f3a6858fcaca,Birch Tree,Powdered Drink,14,30,4,2f10d730-47d4-413d-ad1e-b8da09698cd8,2000,B,495622,jojo,495622,jojo
+347a6612-96f1-478a-839f-89b09fb9a8b9,Rexona,Hygiene,10,15,5,08dc380e-97bb-435a-a1a0-932e7f9375ba,1000,B,985332,jojo,985332,jojo

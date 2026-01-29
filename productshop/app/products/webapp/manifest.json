@@ -1,7 +1,7 @@
 {
   "_version": "1.81.0",
   "sap.app": {
-    "id": "ns.productshop",
+    "id": "ns.products",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.20.1",
-      "toolsId": "76cf19c1-4b23-44d5-9884-2bd87dcf016f"
+      "toolsId": "33466145-addc-4e83-a79f-2d17cafc7fcf"
     },
     "dataSources": {
       "mainService": {
@@ -60,7 +60,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "ns.productshop.i18n.i18n"
+          "bundleName": "ns.products.i18n.i18n"
         }
       },
       "": {
