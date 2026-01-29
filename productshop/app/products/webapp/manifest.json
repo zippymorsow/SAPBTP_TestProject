@@ -126,8 +126,37 @@
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
-              "editableHeaderContent": false,
-              "contextPath": "/Product"
+              "editableHeaderContent": true,
+              "contextPath": "/Product",
+              "content": {
+                "header": {
+                  "anchorBarVisible": true
+                },
+                "footer": {
+                  "actions": {
+                    "12345": {
+                      "press": "ns.products.ext.controller.Anything.Sampler",
+                      "visible": true,
+                      "enabled": true,
+                      "text": "Custom Action ID",
+                      "position": {
+                        "placement": "After",
+                        "anchor": "DataFieldForAction::productshop.orderProduct"
+                      }
+                    }
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.FieldGroup#formsection": {
+                  "fields": {
+                    "FN": {
+                      "template": "ns.products.ext.fragment.FN",
+                      "label": "sample field"
+                    }
+                  }
+                }
+              }
             }
           }
         }
