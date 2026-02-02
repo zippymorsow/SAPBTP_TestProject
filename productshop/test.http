@@ -1,0 +1,28 @@
+# GET http://localhost:4004/odata/v4/productshop/Product
+
+# GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/odata/v4/productshop/Product?sap-user=john
+
+# GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/odata/v4/productshop?sap-user=mario&sap-password=initial
+
+# GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/odata/v4/productshop?sap-user=john
+
+
+
+# GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/ns.products/index.html?sap-user=mario&sap-password=initial
+
+
+# GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/ns.products/index.html?sap-user=john
+
+
+
+#cds watch --open ns.products/index.html?sap-ui-xx-viewCache=false --livereload false
+
+#cds watch --open ns.productshop/index.html?sap-ui-xx-viewCache=false --livereload false
+
+GET https://port4004-workspaces-ws-utb7i.ap21.trial.applicationstudio.cloud.sap/logout
+
+
+# Content-Type: application/json
+# {
+#     'body' : 'henry'
+# }
